@@ -15,7 +15,6 @@ const ageClickHandler = (event) => {
             <h2>{lastName} , {firstName}</h2>
             <p>Age: {personAge}</p>
             <p>Hair Color: {hairColor}</p>
-            <button onClick = {(event) => ageClickHandler (event)}>Birthday Button for {lastName} {firstName}</button>
         </div>
     )
 }
